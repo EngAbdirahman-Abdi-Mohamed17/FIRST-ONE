@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+a{
+    text-decoration: none;
+}
+.header i{
+    font-size: 3em;
+}
+i:hover{
+    color: brown;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 2.5em;
+    
+}
+ul li:hover{
+    color: brown;
+}
+video{
+    margin-left: 130px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.watch{
+    display: flex;
+    justify-content: space-between;
+}
+.watch h1{
+    padding-left: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(250, 5, 250);
+}
+.watch h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 30px;
+}
+h2{
+    margin-top: 80px;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: rgb(4, 161, 245);
+    margin-left: 30px;
+}
+.box-containers{
+    display: flex;
+    gap: 80px;
+}
+.box-containers1{
+    margin-top: 40px;
+}
+.box-containers1 h1{
+    padding-bottom: 60px;
+    padding-left: 20px;
+    color: rgb(4, 124, 253);
+    font-size: 3em;
+    font-weight: bold;
+}
+.box-containers1 img{
+    padding-top: 20px;
+}
+.box-containers1 p{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+.box-containers1 h3{
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+.btn2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 7px 20px;
+    background-color: rgb(174, 255, 0);
+    border: none;
+    border-radius: 10px;
+    color: rgb(6, 6, 6);
+    font-size: 1.1em;
+}
+.btn3{
+    background-color: transparent;
+    border: none;
+    font-size: 1.3em;
+    color: blue;
+}
+.box-containers2{
+    margin-top: 40px;
+}
+.box-containers2 h1{
+    padding-bottom: 60px;
+    padding-left: 20px;
+    color: rgb(4, 124, 253);
+    font-size: 3em;
+    font-weight: bold;
+}
+.box-containers2 img{
+    padding-top: 20px;
+}
+.box-containers2 p{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+.box-containers2 h3{
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+.btn2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 7px 20px;
+    background-color: rgb(174, 255, 0);
+    border: none;
+    border-radius: 10px;
+    color: rgb(6, 6, 6);
+    font-size: 1.1em;
+}
+.btn3{
+    background-color: transparent;
+    border: none;
+    font-size: 1.3em;
+    color: blue;
+}
+.box-containers3{
+    margin-top: 40px;
+}
+.box-containers3 h1{
+    padding-bottom: 60px;
+    padding-left: 20px;
+    color: rgb(4, 124, 253);
+    font-size: 3em;
+    font-weight: bold;
+}
+.box-containers3 img{
+    padding-top: 20px;
+}
+.box-containers3 p{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+.box-containers3 h3{
+    padding-left: 20px;
+    font-size: 1.5em;
+}
+.btn2{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 7px 20px;
+    background-color: rgb(174, 255, 0);
+    border: none;
+    border-radius: 10px;
+    color: rgb(6, 6, 6);
+    font-size: 1.1em;
+}
+.btn3{
+    background-color: transparent;
+    border: none;
+    font-size: 1.3em;
+    color: blue;
+}
+footer{
+    background-color: rgb(48, 47, 47);
+    height: 500px;
+}
+.footer{
+   
+    display: flex;
+    color: #e8e8f0;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 60px;
+    padding-top: 250px;
+}
+.footer1{
+    
+    display: flex;
+    color: #f2eeee;
+    gap: 10px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.footer1 i{
+    padding-top: 3px;
+    font-size: 3em;
+}
+.footer1 h1{
+    font-size: 3em;
+}
+
+.container4{
+    display: flex;
+    gap: 70px;
+    margin-left: 900px;
+    margin-top: -400px;
+    color: #e8e8f0;
+    padding-top: 30px;
+}
+.container4 p{
+    padding-top: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(193, 193, 193);
+}
+#icon4{
+    display: none;
+}
+@media (width:390px) {
+    ul{
+        display: none;
+    }
+    .header{
+        display: flex;
+    }
+    .watch{
+        display: block;
+        padding-top: 10px;
+    }
+    .watch h3{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    video{
+        width: 300px;
+        margin-right:200px;
+
+    }
+    .box-containers{
+        display: block;
+    }
+    
+}

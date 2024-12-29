@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+.header i{
+    font-size: 3em;
+}
+a{
+    text-decoration: none;
+}
+i:hover{
+    color: brown;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 2.5em;
+    
+}
+ul li:hover{
+    color: brown;
+}
+.container{
+    background: url(Screenshot\ 2024-12-10\ 184349.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.xar{
+    animation-name: hh;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes hh{
+    from{
+     transform: rotate(190deg);
+    }
+    to{
+        transform:rotate(0deg);
+    }
+}
+
+.xar h1{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 100px;
+    padding-right: 500px;
+}
+span{
+    color: rgb(243, 7, 168);
+}
+.sawiro{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+    animation-name: mudalib;
+    animation-duration: 5s;
+}
+@keyframes mudalib{
+    from{
+       transform: scale(2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.sawiro h1{
+    font-weight: bold;
+    color: rgb(251, 9, 194);
+}
+#container{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+#container1 h1{
+       font-size: 2em;
+       font-weight: bold;
+       padding-top: 10px;
+}
+#container p{
+    padding-top: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(48, 47, 47);
+    height: 500px;
+}
+.footer{
+   
+    display: flex;
+    color: #e8e8f0;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 60px;
+    padding-top: 250px;
+}
+.footer1{
+    
+    display: flex;
+    color: #f2eeee;
+    gap: 10px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.footer1 i{
+    padding-top: 3px;
+    font-size: 3em;
+}
+.footer1 h1{
+    font-size: 3em;
+}
+.container4{
+    display: flex;
+    gap: 70px;
+    margin-left: 900px;
+    margin-top: -400px;
+    color: #e8e8f0;
+    padding-top: 30px;
+}
+.container4 p{
+    padding-top: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(193, 193, 193);
+}
+#icon4{
+    display: none;
+}
+@media (width:390px) {
+    ul{
+        display: none;
+    }
+    .header{
+        
+    }
+    .sawiro{
+        display: block;
+        padding-left: 100px;
+    }
+    
+    
+    #container{
+        
+        margin-left: 70px;
+        display: block;
+        
+    }
+    
+    .xar img{
+        display: none;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+    }
+    .xar h1{
+        padding-left: 100px;
+
+    }
+    #icon2{
+        display: block;
+    }
+
+}

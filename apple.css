@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+.header i{
+    font-size: 3em;
+}
+i:hover{
+    color: brown;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+ul li:hover{
+    color: brown;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    background: url(Screenshot\ 2024-12-10\ 184349.png);
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    animation-name: abdi;
+    animation-duration: 4s;
+    /* animation-iteration-count: infinite; */
+    /* animation-delay: 1s; */
+    
+}
+@keyframes abdi{
+    from{
+        transform: translate(400px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+.container h1{
+    color: aliceblue;
+    text-align: center;
+}
+.container h3{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.4em;
+}
+.btn{
+    margin-top: 550px;
+    text-align: center;
+
+}
+#btn1{
+    background-color: aqua;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(57, 47, 47);
+    font-size: 1.2em;
+}
+#btn2{
+    background-color: transparent;
+    padding: 7px 20px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+#btn2:hover{
+    background-color: aqua;
+}
+.box{
+    background: url(1.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-top: 130px;
+    
+}
+.box h1{
+    color: aliceblue;
+    text-align: center;
+}
+.box h3{
+    color: #e8e8f0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.8em;
+}
+.btn-two{
+    margin-top: 450px;
+    text-align: center;
+
+}
+#btn3{
+    background-color: blue;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(232, 223, 223);
+    font-size: 1.2em;
+}
+#btn4{
+    background-color: transparent;
+    padding: 7px 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+#btn4:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.hero1{
+    background-color: rgb(234, 228, 228);
+    width: 50%;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.hero1 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.hero1 p{
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.hero1 h4{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.hero2{
+    background-color: rgb(43, 43, 160);
+    width: 50%;
+    border-radius: 50px;
+}
+.btn-three{
+    margin-top: 60px;
+    margin-left: 39%;
+}
+#btn5{
+    background-color: rgb(232, 25, 25);
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: aliceblue;
+    font-weight: bold;
+}
+#btn6{
+    background-color: transparent;
+    padding: 7px 20px;
+    border: 2px solid rgb(239, 21, 21);
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+}
+#btn6:hover{
+    background-color: rgb(220, 36, 36);
+    color: antiquewhite;
+}
+.hero1 img{
+    margin-left: 190px;
+    margin-bottom: 10px;
+}
+.hero2 h1{
+    text-align: center;
+    color: #e8e8f0;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 2.5em;
+
+}
+.hero2 p{
+    text-align: center;
+    color: #e8e8f0;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.hero2 img{
+    color: rgb(9, 9, 241);
+    padding-top: 60px;
+    padding-left: 150px;
+}
+.hero2 button{
+    background-color: rgb(247, 249, 250);
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    margin-left: -34%;
+}
+.sawir{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+
+
+.sawir1{
+    background-color: white;
+    border-radius: 30px;    animation-name: moha;
+    animation-duration: 3s;
+    /* animation-delay: 3s; */
+    /* animation-iteration-count: infinite; */
+    animation-timeline: view();
+}
+@keyframes moha{
+    from{
+     transform: translate(-100px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+.sawir1 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.sawir1 p{
+    text-align: center;
+    padding-top: 20px;
+}
+.sawir1 img{
+    padding-top: 60px;
+}
+.sawir1 button{
+    position: absolute;
+    left: 300px;
+    margin-top: 40px;
+    background-color: blue;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
+.sawir2{
+    background-color: antiquewhite;
+    width: 50%;
+    border-radius: 30px;
+    animation-name: kafi;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    
+}
+@keyframes kafi{
+    from{
+     transform: translate(260px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+    
+
+.sawir2 h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.sawir2 p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+#btn7{
+    margin-top: 80px;
+    margin-left: 250px;
+    background-color: blueviolet;
+    color: #e8e8f0;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+#btn8{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 7px 20px;
+    font-weight: bold;
+}
+#btn8:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.sawir2 img{
+    padding-left: 80px;
+}
+footer{
+    background-color: rgb(48, 47, 47);
+    height: 500px;
+}
+.footer{
+   
+    display: flex;
+    color: #e8e8f0;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 60px;
+    padding-top: 250px;
+}
+.footer1{
+    
+    display: flex;
+    color: #f2eeee;
+    gap: 10px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.footer1 i{
+    padding-top: 3px;
+    font-size: 3em;
+}
+.footer1 h1{
+    font-size: 3em;
+}
+.container4{
+    display: flex;
+    gap: 70px;
+    margin-left: 900px;
+    margin-top: -400px;
+    color: #e8e8f0;
+    padding-top: 30px;
+}
+.container4 p{
+    padding-top: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(193, 193, 193);
+}
+#icon4{
+    display: none;
+}
+@media (width:390px) {
+    ul{
+        display: none;
+    }
+    .header{
+        display: flex;
+    }
+    .container img{
+        width: 300px;
+    }
+    
+}
+
+
+
+
