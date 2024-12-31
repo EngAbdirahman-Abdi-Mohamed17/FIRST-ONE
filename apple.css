@@ -29,20 +29,25 @@ a{
 .container{
     background: url(Screenshot\ 2024-12-10\ 184349.png);
     background-size: cover;
-    width: 1200px;
+    width: 1500px;
     height: 600px;
+    margin-left: 150px;
+    margin-top: 60px;
+    border-radius: 10px;
     animation-name: abdi;
-    animation-duration: 4s;
+    /* animation-timeline: view(); */
+    animation-duration: 2s;
     /* animation-iteration-count: infinite; */
     /* animation-delay: 1s; */
+    
     
 }
 @keyframes abdi{
     from{
-        transform: translate(400px);
+        transform: translatey(400px);
     }
     to{
-        transform: translate(0px);
+        transform: translatey(0px);
     }
 }
 .container h1{
@@ -232,7 +237,7 @@ a{
 }
 @keyframes moha{
     from{
-     transform: translate(-100px);
+     transform: translate(-300px);
     }
     to{
         transform: translate(0px);
@@ -267,12 +272,13 @@ a{
     border-radius: 30px;
     animation-name: kafi;
     animation-duration: 5s;
+    animation-timeline: view();
     /* animation-iteration-count: infinite; */
     
 }
 @keyframes kafi{
     from{
-     transform: translate(260px);
+     transform: translate(300px);
     }
     to{
         transform: translate(0px);
