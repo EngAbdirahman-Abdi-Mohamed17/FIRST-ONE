@@ -341,6 +341,9 @@ footer{
     padding-top: 3px;
     font-size: 3em;
 }
+.footer h1{
+    color: aquamarine;
+}
 .footer1 h1{
     font-size: 3em;
 }
